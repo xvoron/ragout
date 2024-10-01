@@ -3,12 +3,13 @@ name = "ragout"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.11"
 dependencies = [
     "openai>=1.51.0",
     "pygments>=2.18.0",
     "rio-ui>=0.10.2",
 ]
+
 
 [tool.uv]
 dev-dependencies = [
